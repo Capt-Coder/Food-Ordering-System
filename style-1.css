@@ -1,0 +1,122 @@
+body{
+    background: #FFF0E2;
+}
+
+.srec{
+    width: 90px;
+    height: 29px;
+    font-family: 'Lohit Tamil';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FF0000;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.searchbar{
+    margin-top: 20px;
+    margin-left: 10px;
+      
+}
+.searchbar input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f8f8f8;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+  
+.searchbar  button[type="submit"] {
+    width: 25%;
+    background-color: #1b7bdc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+.searchbar button[type="submit"]:hover {
+    background-color: #87edff;
+    color: black;
+  }
+
+.desc{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.box-1{
+    position: absolute;
+    width: 42%;
+    height: 25.6%;
+    left: 5%;
+    top: 28%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+}
+
+.box-2{
+    position: absolute;
+    width: 42%;
+    height: 25.6%;
+    right: 5%;
+    top: 28%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+}
+
+.box-3{
+    position: absolute;
+    width: 42%;
+    height: 25.6%;
+    left: 5%;
+    top: 58%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+}
+
+.box-4{
+    position: absolute;
+    width: 42%;
+    height: 25.6%;
+    right: 5%;
+    top: 58%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+}
+
+.image{
+    position: absolute;
+    max-width: 70%;
+    width: auto;
+    top: 20%;
+    left: 14%;
+}
+
+.image_desc{
+    color: #000000;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-weight: 500;
+    font-size: large;
+}
